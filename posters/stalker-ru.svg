@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500" role="img" aria-label="潜行者 海报（ru 版，站内矢量母版）">
+<defs>
+<linearGradient id="bg-stalker-ru" x1="0" y1="0" x2="0.4" y2="1">
+<stop offset="0%" stop-color="#08090a"/><stop offset="58%" stop-color="#1a1e1a"/><stop offset="100%" stop-color="#08090a"/>
+</linearGradient>
+<radialGradient id="vig-stalker-ru" cx="50%" cy="42%" r="72%">
+<stop offset="45%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity="0.9"/>
+</radialGradient>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="1000" height="1500" fill="url(#bg-stalker-ru)"/>
+<rect x="60" y="120" width="880" height="1240" fill="none" stroke="#7e8a72" stroke-opacity="0.420" stroke-width="1.4"/><rect x="93.33333333333333" y="153.33333333333331" width="813.3333333333334" height="1173.3333333333333" fill="none" stroke="#7e8a72" stroke-opacity="0.416" stroke-width="1.4"/><rect x="126.66666666666666" y="186.66666666666666" width="746.6666666666667" height="1106.6666666666667" fill="none" stroke="#7e8a72" stroke-opacity="0.412" stroke-width="1.4"/><rect x="160" y="220" width="680" height="1040" fill="none" stroke="#7e8a72" stroke-opacity="0.408" stroke-width="1.4"/><rect x="193.33333333333331" y="253.33333333333331" width="613.3333333333334" height="973.3333333333334" fill="none" stroke="#7e8a72" stroke-opacity="0.404" stroke-width="1.4"/><rect x="226.66666666666669" y="286.6666666666667" width="546.6666666666666" height="906.6666666666666" fill="none" stroke="#7e8a72" stroke-opacity="0.400" stroke-width="1.4"/><rect x="260" y="320" width="480" height="840" fill="none" stroke="#7e8a72" stroke-opacity="0.396" stroke-width="1.4"/><rect x="293.33333333333337" y="353.33333333333337" width="413.3333333333333" height="773.3333333333333" fill="none" stroke="#7e8a72" stroke-opacity="0.392" stroke-width="1.4"/><rect x="326.66666666666663" y="386.66666666666663" width="346.66666666666674" height="706.6666666666667" fill="none" stroke="#7e8a72" stroke-opacity="0.388" stroke-width="1.4"/><rect x="430" y="520" width="140" height="260" fill="#d8d2c4" fill-opacity="0.14"/>
+<rect width="1000" height="1500" fill="url(#vig-stalker-ru)"/>
+<g font-family="Georgia, serif" fill="#d8d2c4">
+<text x="80" y="1330" font-size="76" letter-spacing="6" fill-opacity="0.92">潜行者</text>
+<text x="80" y="1392" font-size="30" letter-spacing="12" fill-opacity="0.55" font-family="Helvetica, Arial, sans-serif">STALKER</text>
+<text x="80" y="1444" font-size="24" letter-spacing="8" fill-opacity="0.4" font-family="Helvetica, Arial, sans-serif">1979 · RU</text>
+</g>
+<rect width="1000" height="1500" filter="url(#g)" opacity="0.15" style="mix-blend-mode:overlay"/>
+</svg>

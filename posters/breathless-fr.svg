@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500" role="img" aria-label="精疲力尽 海报（fr 版，站内矢量母版）">
+<defs>
+<linearGradient id="bg-breathless-fr" x1="0" y1="0" x2="0.4" y2="1">
+<stop offset="0%" stop-color="#0a0a0a"/><stop offset="58%" stop-color="#f2f2f2"/><stop offset="100%" stop-color="#0a0a0a"/>
+</linearGradient>
+<radialGradient id="vig-breathless-fr" cx="50%" cy="42%" r="72%">
+<stop offset="45%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity="0.9"/>
+</radialGradient>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="1000" height="1500" fill="url(#bg-breathless-fr)"/>
+<rect x="120" y="200" width="700" height="34" fill="#c1272d" fill-opacity="0.9"/><rect x="0" y="274" width="1000" height="34" fill="#f2f2f2" fill-opacity="0.12"/><rect x="120" y="348" width="700" height="34" fill="#f2f2f2" fill-opacity="0.12"/><rect x="0" y="422" width="1000" height="34" fill="#c1272d" fill-opacity="0.9"/><rect x="120" y="496" width="700" height="34" fill="#f2f2f2" fill-opacity="0.12"/><rect x="0" y="570" width="1000" height="34" fill="#f2f2f2" fill-opacity="0.12"/><rect x="120" y="644" width="700" height="34" fill="#c1272d" fill-opacity="0.9"/><rect x="0" y="718" width="1000" height="34" fill="#f2f2f2" fill-opacity="0.12"/><rect x="120" y="792" width="700" height="34" fill="#f2f2f2" fill-opacity="0.12"/><rect x="0" y="866" width="1000" height="34" fill="#c1272d" fill-opacity="0.9"/><rect x="120" y="940" width="700" height="34" fill="#f2f2f2" fill-opacity="0.12"/><rect x="0" y="1014" width="1000" height="34" fill="#f2f2f2" fill-opacity="0.12"/><rect x="120" y="1088" width="700" height="34" fill="#c1272d" fill-opacity="0.9"/><rect x="0" y="1162" width="1000" height="34" fill="#f2f2f2" fill-opacity="0.12"/><rect x="120" y="1236" width="700" height="34" fill="#f2f2f2" fill-opacity="0.12"/><rect x="0" y="1310" width="1000" height="34" fill="#c1272d" fill-opacity="0.9"/><rect x="0" y="0" width="1000" height="1500" fill="none" stroke="#f2f2f2" stroke-opacity="0.25" stroke-width="2"/>
+<rect width="1000" height="1500" fill="url(#vig-breathless-fr)"/>
+<g font-family="Georgia, serif" fill="#2a2a2a">
+<text x="80" y="1330" font-size="76" letter-spacing="6" fill-opacity="0.92">精疲力尽</text>
+<text x="80" y="1392" font-size="30" letter-spacing="12" fill-opacity="0.55" font-family="Helvetica, Arial, sans-serif">BREATHLESS</text>
+<text x="80" y="1444" font-size="24" letter-spacing="8" fill-opacity="0.4" font-family="Helvetica, Arial, sans-serif">1960 · FR</text>
+</g>
+<rect width="1000" height="1500" filter="url(#g)" opacity="0.15" style="mix-blend-mode:overlay"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500" role="img" aria-label="大都会 海报（de 版，站内矢量母版）">
+<defs>
+<linearGradient id="bg-metropolis-de" x1="0" y1="0" x2="0.4" y2="1">
+<stop offset="0%" stop-color="#07070a"/><stop offset="58%" stop-color="#1c1c22"/><stop offset="100%" stop-color="#07070a"/>
+</linearGradient>
+<radialGradient id="vig-metropolis-de" cx="50%" cy="42%" r="72%">
+<stop offset="45%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity="0.9"/>
+</radialGradient>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="1000" height="1500" fill="url(#bg-metropolis-de)"/>
+<rect x="220" y="1180" width="560" height="46" fill="#07070a" stroke="#8f8f9a" stroke-opacity="0.50"/><rect x="240" y="1088" width="520" height="46" fill="#07070a" stroke="#8f8f9a" stroke-opacity="0.47"/><rect x="260" y="996" width="480" height="46" fill="#07070a" stroke="#8f8f9a" stroke-opacity="0.44"/><rect x="280" y="904" width="440" height="46" fill="#07070a" stroke="#8f8f9a" stroke-opacity="0.41"/><rect x="300" y="812" width="400" height="46" fill="#07070a" stroke="#8f8f9a" stroke-opacity="0.38"/><rect x="320" y="720" width="360" height="46" fill="#07070a" stroke="#8f8f9a" stroke-opacity="0.35"/><rect x="340" y="628" width="320" height="46" fill="#07070a" stroke="#8f8f9a" stroke-opacity="0.32"/><rect x="360" y="536" width="280" height="46" fill="#07070a" stroke="#8f8f9a" stroke-opacity="0.29"/><rect x="380" y="444" width="240" height="46" fill="#07070a" stroke="#8f8f9a" stroke-opacity="0.26"/><rect x="400" y="352" width="200" height="46" fill="#07070a" stroke="#8f8f9a" stroke-opacity="0.23"/><rect x="420" y="260" width="160" height="46" fill="#07070a" stroke="#8f8f9a" stroke-opacity="0.20"/><circle cx="500" cy="300" r="120" fill="none" stroke="#e8e2d4" stroke-opacity="0.35" stroke-width="2"/><path d="M120 1180 L500 140 L880 1180" fill="none" stroke="#8f8f9a" stroke-opacity="0.25" stroke-width="1.5"/>
+<rect width="1000" height="1500" fill="url(#vig-metropolis-de)"/>
+<g font-family="Georgia, serif" fill="#e8e2d4">
+<text x="80" y="1330" font-size="76" letter-spacing="6" fill-opacity="0.92">大都会</text>
+<text x="80" y="1392" font-size="30" letter-spacing="12" fill-opacity="0.55" font-family="Helvetica, Arial, sans-serif">METROPOLIS</text>
+<text x="80" y="1444" font-size="24" letter-spacing="8" fill-opacity="0.4" font-family="Helvetica, Arial, sans-serif">1927 · DE</text>
+</g>
+<rect width="1000" height="1500" filter="url(#g)" opacity="0.15" style="mix-blend-mode:overlay"/>
+</svg>

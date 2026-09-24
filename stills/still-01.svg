@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="拱形门透光的电影剧照（合成）">
+  <defs>
+    <radialGradient id="g1" cx="50%" cy="52%" r="46%">
+      <stop offset="0%" stop-color="#f2e2bd" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#b9a06a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1613"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="50%" cy="50%" r="72%">
+      <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.92"/>
+    </radialGradient>
+    <filter id="grain1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <filter id="soft1"><feGaussianBlur stdDeviation="26"/></filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="#0b0b0c"/>
+  <rect y="600" width="1600" height="300" fill="url(#floor)"/>
+
+  <!-- 远处的墙与发光拱门 -->
+  <g>
+    <ellipse cx="800" cy="470" rx="430" ry="330" fill="url(#g1)" filter="url(#soft1)"/>
+    <path d="M640 620 L640 300 A160 160 0 0 1 960 300 L960 620 Z" fill="url(#g1)" opacity="0.9"/>
+    <path d="M640 620 L640 300 A160 160 0 0 1 960 300 L960 620 Z" fill="none" stroke="#0a0a0a" stroke-width="6" opacity="0.6"/>
+  </g>
+
+  <!-- 门槛上的剪影人：极简火柴 -->
+  <g fill="#070707">
+    <path d="M796 520 q0 -22 16 -22 q16 0 16 22 l6 96 l-44 0 z" opacity="0.92"/>
+    <circle cx="812" cy="486" r="12" opacity="0.92"/>
+  </g>
+
+  <!-- 地面反光 -->
+  <rect x="640" y="620" width="320" height="180" fill="#d8c79a" opacity="0.14"/>
+  <rect x="660" y="700" width="280" height="6" fill="#e6d7ad" opacity="0.12"/>
+
+  <!-- 侧壁结构线 -->
+  <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="2">
+    <line x1="180" y1="0" x2="180" y2="900"/>
+    <line x1="1420" y1="0" x2="1420" y2="900"/>
+    <line x1="0" y1="620" x2="1600" y2="620"/>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#vig)"/>
+  <rect width="1600" height="900" filter="url(#grain1)" opacity="0.16" style="mix-blend-mode:overlay"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500" role="img" aria-label="教父 海报（us 版，站内矢量母版）">
+<defs>
+<linearGradient id="bg-godfather-us" x1="0" y1="0" x2="0.4" y2="1">
+<stop offset="0%" stop-color="#08080a"/><stop offset="58%" stop-color="#171717"/><stop offset="100%" stop-color="#08080a"/>
+</linearGradient>
+<radialGradient id="vig-godfather-us" cx="50%" cy="42%" r="72%">
+<stop offset="45%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity="0.9"/>
+</radialGradient>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="1000" height="1500" fill="url(#bg-godfather-us)"/>
+<line x1="220" y1="120" x2="164" y2="980" stroke="#b9a06a" stroke-opacity="0.16" stroke-width="1.2"/><line x1="290" y1="120" x2="248" y2="980" stroke="#b9a06a" stroke-opacity="0.28" stroke-width="1.2"/><line x1="360" y1="120" x2="332" y2="980" stroke="#b9a06a" stroke-opacity="0.40" stroke-width="1.2"/><line x1="430" y1="120" x2="416" y2="980" stroke="#b9a06a" stroke-opacity="0.16" stroke-width="1.2"/><line x1="500" y1="120" x2="500" y2="980" stroke="#b9a06a" stroke-opacity="0.28" stroke-width="1.2"/><line x1="570" y1="120" x2="584" y2="980" stroke="#b9a06a" stroke-opacity="0.40" stroke-width="1.2"/><line x1="640" y1="120" x2="668" y2="980" stroke="#b9a06a" stroke-opacity="0.16" stroke-width="1.2"/><line x1="710" y1="120" x2="752" y2="980" stroke="#b9a06a" stroke-opacity="0.28" stroke-width="1.2"/><line x1="780" y1="120" x2="836" y2="980" stroke="#b9a06a" stroke-opacity="0.40" stroke-width="1.2"/><ellipse cx="500" cy="560" rx="150" ry="180" fill="#08080a" stroke="#b9a06a" stroke-opacity="0.5"/><path d="M380 470h240l-20 40H400z" fill="#b9a06a" fill-opacity="0.75"/><circle cx="500" cy="640" r="10" fill="#b9a06a"/>
+<rect width="1000" height="1500" fill="url(#vig-godfather-us)"/>
+<g font-family="Georgia, serif" fill="#f2efe6">
+<text x="80" y="1330" font-size="76" letter-spacing="6" fill-opacity="0.92">教父</text>
+<text x="80" y="1392" font-size="30" letter-spacing="12" fill-opacity="0.55" font-family="Helvetica, Arial, sans-serif">THE GODFATHER</text>
+<text x="80" y="1444" font-size="24" letter-spacing="8" fill-opacity="0.4" font-family="Helvetica, Arial, sans-serif">1972 · US</text>
+</g>
+<rect width="1000" height="1500" filter="url(#g)" opacity="0.15" style="mix-blend-mode:overlay"/>
+</svg>

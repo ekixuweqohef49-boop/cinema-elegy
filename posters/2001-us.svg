@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500" role="img" aria-label="2001太空漫游 海报（us 版，站内矢量母版）">
+<defs>
+<linearGradient id="bg-2001-us" x1="0" y1="0" x2="0.4" y2="1">
+<stop offset="0%" stop-color="#050506"/><stop offset="58%" stop-color="#101014"/><stop offset="100%" stop-color="#050506"/>
+</linearGradient>
+<radialGradient id="vig-2001-us" cx="50%" cy="42%" r="72%">
+<stop offset="45%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity="0.9"/>
+</radialGradient>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="1000" height="1500" fill="url(#bg-2001-us)"/>
+<circle cx="500" cy="470" r="300" fill="#b9a06a" fill-opacity="0.06"/><circle cx="500" cy="470" r="300" fill="none" stroke="#b9a06a" stroke-opacity="0.5" stroke-width="1.5"/><rect x="440" y="700" width="120" height="560" fill="#050506" stroke="#b9a06a" stroke-opacity="0.55"/><rect x="0" y="1260" width="1000" height="240" fill="#101014"/>
+<rect width="1000" height="1500" fill="url(#vig-2001-us)"/>
+<g font-family="Georgia, serif" fill="#b9a06a">
+<text x="80" y="1330" font-size="76" letter-spacing="6" fill-opacity="0.92">2001太空漫游</text>
+<text x="80" y="1392" font-size="30" letter-spacing="12" fill-opacity="0.55" font-family="Helvetica, Arial, sans-serif">2001: A SPACE ODYSSEY</text>
+<text x="80" y="1444" font-size="24" letter-spacing="8" fill-opacity="0.4" font-family="Helvetica, Arial, sans-serif">1968 · US</text>
+</g>
+<rect width="1000" height="1500" filter="url(#g)" opacity="0.15" style="mix-blend-mode:overlay"/>
+</svg>

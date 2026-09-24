@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="低悬巨月与地平线人物的电影剧照（合成）">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0d12"/>
+      <stop offset="60%" stop-color="#141a22"/>
+      <stop offset="100%" stop-color="#08090b"/>
+    </linearGradient>
+    <radialGradient id="moon3" cx="42%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.96"/>
+      <stop offset="60%" stop-color="#c8cdd4" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7a828c" stop-opacity="0.1"/>
+    </radialGradient>
+    <linearGradient id="ground3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#20242b"/>
+      <stop offset="100%" stop-color="#060607"/>
+    </linearGradient>
+    <radialGradient id="vig3" cx="50%" cy="45%" r="74%">
+      <stop offset="52%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.9"/>
+    </radialGradient>
+    <filter id="grain3">
+      <feTurbulence type="fractalNoise" baseFrequency="0.88" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <filter id="soft3"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky3)"/>
+  <circle cx="800" cy="430" r="290" fill="url(#moon3)" filter="url(#soft3)"/>
+  <circle cx="800" cy="430" r="236" fill="#eef1f5" opacity="0.16"/>
+
+  <!-- 水面/地面 -->
+  <rect y="620" width="1600" height="280" fill="url(#ground3)"/>
+  <rect x="720" y="620" width="160" height="280" fill="#e7ecf2" opacity="0.07"/>
+
+  <!-- 地平线上的微小人物 -->
+  <g fill="#040405">
+    <path d="M1010 612 q0 -14 10 -14 q10 0 10 14 l3 20 l-26 0 z"/>
+    <circle cx="1020" cy="588" r="7"/>
+    <path d="M1064 612 q0 -12 8 -12 q8 0 8 12 l3 20 l-22 0 z" opacity="0.85"/>
+    <circle cx="1072" cy="591" r="6" opacity="0.85"/>
+  </g>
+
+  <!-- 层云 -->
+  <g fill="#ffffff" opacity="0.045">
+    <rect x="0" y="300" width="1600" height="3"/>
+    <rect x="0" y="352" width="1600" height="2"/>
+    <rect x="220" y="404" width="1180" height="2"/>
+    <rect x="0" y="472" width="1600" height="2"/>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#vig3)"/>
+  <rect width="1600" height="900" filter="url(#grain3)" opacity="0.16" style="mix-blend-mode:overlay"/>
+</svg>
