@@ -1,0 +1,41 @@
+{
+  "name": "cinema-elegy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cinema Elegy — 电影哀悼社 / 沉浸式电影美学与影评平台",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "fetch:daily": "node scripts/fetch-daily.mjs",
+    "fetch:posters": "node scripts/fetch-posters.mjs",
+    "verify:daily": "node scripts/verify-daily.mjs",
+    "verify:export": "node scripts/verify-export.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.28",
+    "lucide-react": "^0.441.0",
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
